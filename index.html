@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silvia Menéndez Díaz · Global Digital Strategy Director</title>
+<style>
+:root { --bg: #fafafa; --text: #1f2937; --muted: #6b7280; --accent: #1d4ed8; --card-bg: #ffffff; --border: #e5e7eb; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+header { background: var(--card-bg); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+.navbar { max-width: 900px; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-weight: 700; text-decoration: none; color: var(--text); font-size: 1.05rem; }
+.nav-links { list-style: none; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.nav-links a { text-decoration: none; color: var(--muted); font-size: 0.95rem; }
+.nav-links a:hover { color: var(--accent); }
+.container, .hero { max-width: 900px; margin: 0 auto; padding: 3.5rem 1.5rem; }
+.hero { padding-top: 5rem; padding-bottom: 4rem; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.hero h1 span { color: var(--accent); }
+.hero h2 { font-size: 1.25rem; color: var(--muted); font-weight: 500; margin-bottom: 1.25rem; }
+.hero p { max-width: 720px; margin-bottom: 2rem; font-size: 1.05rem; }
+.hero-buttons, .contact-links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.btn { padding: 0.7rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.95rem; }
+.btn.primary { background: var(--accent); color: white; }
+.btn.secondary { border: 1px solid var(--border); background: var(--card-bg); color: var(--text); }
+section h2, footer h2 { font-size: 1.75rem; margin-bottom: 1.5rem; border-bottom: 2px solid var(--border); padding-bottom: 0.5rem; }
+.about-text { color: var(--text); max-width: 780px; margin-bottom: 1.2rem; font-size: 1rem; }
+.grid, .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.card, .skill-group, .contact-box { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; }
+.tag { font-size: 0.78rem; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+.card h3, .skill-group h3 { margin: 0.5rem 0; font-size: 1.15rem; color: var(--text); }
+.card p, .skill-group p { color: var(--muted); font-size: 0.95rem; }
+.timeline { border-left: 2px solid var(--border); margin-left: 0.5rem; padding-left: 1.75rem; display: flex; flex-direction: column; gap: 1.75rem; }
+.timeline-item { position: relative; }
+.timeline-item::before { content: ''; position: absolute; left: -2.18rem; top: 0.35rem; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--accent); }
+.timeline-item.active::before { background: var(--accent); }
+.timeline-date { font-size: 0.85rem; font-weight: 600; color: var(--accent); display: block; }
+.timeline-item h3 { font-size: 1.15rem; color: var(--text); margin-top: 0.1rem; }
+.timeline-place { font-size: 0.95rem; color: var(--muted); display: block; }
+.edu-list { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+.edu-list li { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; }
+.edu-list strong { display: block; color: var(--text); font-size: 1rem; }
+.edu-list span { color: var(--muted); font-size: 0.9rem; }
+.copyright { margin-top: 3rem; font-size: 0.85rem; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+<a href="#" class="logo">Silvia Menéndez Díaz</a>
+<ul class="nav-links">
+<li><a href="#about">Profile</a></li>
+<li><a href="#journey">How I got here</a></li>
+<li><a href="#skills">Skills &amp; Tools</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Hi, I'm <span>Silvia Menéndez</span></h1>
+<h2>Global Digital Strategy Director | E-commerce &amp; Data Analytics Leader · Barcelona</h2>
+<p>Senior leader focused on the strategic direction of digital ecosystems, high-level decision making, multidisciplinary team leadership, and global profitability optimization across Fashion, Travel, and Sports.</p>
+<div class="hero-buttons">
+<a href="#journey" class="btn primary">Explore my trajectory</a>
+<a href="https://linkedin.com" target="_blank" class="btn secondary">Connect on LinkedIn</a>
+</div>
+</section>
+
+<section id="about" class="container">
+<h2>Executive Profile &amp; Areas of Expertise</h2>
+<p class="about-text">Global Digital Strategy and E-commerce Analytics Leader with 15+ years of experience driving Performance Marketing and Digital Analytics within multinational e-commerce organizations (FC Barcelona, MANGO, lastminute.com, among others).</p>
+<p class="about-text">My career has evolved toward strategic leadership focused on scaling digital ecosystems through data-driven decision making, Conversion Rate Optimization (CRO), and customer acquisition—aligning digital strategy with business goals and managing large-scale Paid Media budgets to deliver sustainable growth.</p>
+<div class="grid" style="margin-top: 2rem;">
+<article class="card">
+<span class="tag">Strategy &amp; Leadership</span>
+<h3>Global E-commerce &amp; Team Direction</h3>
+<p>Strategic ownership of global digital budgets, international market expansion, and leadership of multidisciplinary teams (Analytics, Paid Media, SEO).</p>
+</article>
+<article class="card">
+<span class="tag">Data &amp; Performance</span>
+<h3>Digital Analytics, CRO &amp; Paid Media</h3>
+<p>Data visualization, KPI governance, conversion rate optimization, and full-funnel performance marketing (SEM, SEO, Affiliate, Programmatic, Social).</p>
+</article>
+</div>
+</section>
+
+<section id="journey" class="container">
+<h2>How I got here</h2>
+<div class="timeline">
+<div class="timeline-item active">
+<span class="timeline-date">2020 – Present</span>
+<h3>Performance Manager</h3>
+<span class="timeline-place">FC BARCELONA · BLM Barça Licensing &amp; Merchandising</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">2019 – 2020</span>
+<h3>Online Marketing Manager</h3>
+<span class="timeline-place">FC ENERGIA</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">2012 – 2018</span>
+<h3>Online Marketing Manager</h3>
+<span class="timeline-place">MANGO</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">2010 – 2012</span>
+<h3>Acquisition Manager Spain</h3>
+<span class="timeline-place">LASTMINUTE.COM GROUP</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">2008 – 2010</span>
+<h3>PPC Manager</h3>
+<span class="timeline-place">LASTMINUTE.COM GROUP</span>
+</div>
+<div class="timeline-item">
+<span class="timeline-date">2007 – 2008</span>
+<h3>PPC Consultant</h3>
+<span class="timeline-place">ONETOMARKET</span>
+</div>
+</div>
+</section>
+
+<section id="skills" class="container">
+<h2>Skills &amp; Tools</h2>
+<div class="skills-grid">
+<div class="skill-group">
+<span class="tag">Data &amp; Modeling</span>
+<h3>Data Analysis &amp; Modelling</h3>
+<p>SQL · Excel · DAX · Digital Analytics · Attribution Modeling</p>
+</div>
+<div class="skill-group">
+<span class="tag">BI &amp; Reporting</span>
+<h3>Business Intelligence &amp; Visualization</h3>
+<p>Power BI · Tableau · Looker Studio · Data Storytelling</p>
+</div>
+<div class="skill-group">
+<span class="tag">Growth &amp; Strategy</span>
+<h3>E-commerce &amp; Digital Strategy</h3>
+<p>Global E-commerce · CRO · A/B Testing · Performance Marketing · Consumer Journey</p>
+</div>
+</div>
+</section>
+
+<section id="education" class="container">
+<h2>Education, Certifications &amp; Languages</h2>
+<ul class="edu-list">
+<li><strong>Data Analysis with Excel: Power Query, Power Pivot &amp; Power BI</strong><span>Core Networks · 2026</span></li>
+<li><strong>Data Analysis &amp; Programming with Power BI</strong><span>Core Networks · 2025</span></li>
+<li><strong>Google Certifications: Analytics Individual Qualification &amp; Google Ads</strong><span>Google · 2020</span></li>
+<li><strong>Master's Degree in Marketing &amp; Communication Management</strong><span>Universitat Oberta de Catalunya (UOC) · 2008 – 2010</span></li>
+<li><strong>Bachelor's Degree in Journalism</strong><span>Universitat Autònoma de Barcelona (UAB) · 2006</span></li>
+<li><strong>Languages</strong><span>English: Full Professional Proficiency (C1/C2) · Spanish &amp; Catalan: Native / Bilingual</span></li>
+</ul>
+</section>
+
+<footer id="contact" class="container">
+<h2>Contact</h2>
+<div class="contact-box">
+<p>Looking to discuss global digital strategy, e-commerce growth, or leadership opportunities? Feel free to reach out directly.</p>
+<div class="contact-links">
+<a href="https://linkedin.com" target="_blank" class="btn primary">LinkedIn (/in/silviamenendezdiaz)</a>
+<a href="mailto:silvia.menendez@ejemplo.com" class="btn secondary">Email me</a>
+<a href="https://github.com" target="_blank" class="btn secondary">GitHub</a>
+</div>
+</div>
+<p class="copyright">© 2026 Silvia Menéndez Díaz · Barcelona</p>
+</footer>
+
+</body>
+</html>
